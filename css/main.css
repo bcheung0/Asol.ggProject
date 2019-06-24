@@ -10,6 +10,10 @@ h1 {
     font-size: 50px; 
 }
 
+h2 {
+    font-size: 15px;
+}
+
 .tft {
     display: block;
     margin-left: auto;
@@ -17,6 +21,11 @@ h1 {
     height: 25%;
     width: 25%;
 }
+
+.bottom {
+    margin-top: 6%;
+}
+
 
 .searchbar{
     margin-bottom: auto;

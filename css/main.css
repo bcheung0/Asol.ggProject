@@ -2,9 +2,15 @@ body {
     background-color: #33D8FF;  
 }
 
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 50px; 
+}
+
 .searchbar{
     margin-bottom: auto;
-    margin-top: 10%;
     height: 60px;
     background-color: #353b48;
     border-radius: 30px;

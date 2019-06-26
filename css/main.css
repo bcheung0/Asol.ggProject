@@ -52,17 +52,19 @@ h2 {
     color: white;
     border: 0;
     outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
+    background-color: #353b48;
+    width: 400px;
+    caret-color:auto;
     line-height: 40px;
-    transition: width 0.4s linear;
+    transition: none;
+    padding-left:10px;
     }
 
-    .searchbar:hover > .search_input{
-    padding: 0 10px;
+    .searchbar{
+    color:#353b48;
+    padding: 8px;
     width: 450px;
-    caret-color:red;
+    caret-color:auto;
     transition: width 0.4s linear;
     }
 

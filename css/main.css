@@ -40,6 +40,15 @@ h2 {
     color: #fff;
 }
 
+.main-champions-container {
+    width: 90%;
+    height: 500px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #000;
+    margin: 5% 5% 0 5%;
+}
+
 .searchbar{
     margin-bottom: auto;
     height: 60px;

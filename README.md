@@ -1,5 +1,5 @@
 # bcheung0.github.io
-Team Fight Tactics Stats 
+Team Fight Tactics Stats Website
 
 Owners:
 

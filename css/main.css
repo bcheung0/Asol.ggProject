@@ -41,12 +41,15 @@ h2 {
 }
 
 .main-champions-container {
-    width: 90%;
-    height: 500px;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #000;
-    margin: 5% 5% 0 5%;
+   
+}
+
+.urf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .searchbar{

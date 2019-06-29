@@ -1,3 +1,4 @@
+ rl_test
 *{
     padding: 0;
     margin: 0;
@@ -149,3 +150,101 @@ h2 {
 .list-inline-item{
     padding: 1em 0.5em 0 0.5em;
 }
+body {
+    background-image: url("../images/backgroundpengu.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {
+    margin-top: 4%;
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 50px;
+    color: #fff;
+
+}
+
+h2 {
+    font-size: 12px;
+    color: #fff;
+
+}
+
+.tft {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 16%;
+    width: 16%;
+}
+
+.bottom {
+    margin-top: 12%;
+}
+
+.container {
+    width: 35%;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.main-champions-container {
+   
+}
+
+.urf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background-color: #353b48;
+    width: 300px;
+    caret-color:auto;
+    line-height: 40px;
+    transition: none;
+    padding-left:10px;
+    }
+
+    .searchbar{
+    color:#353b48;
+    padding: 8px;
+    width: 450px;
+    caret-color:auto;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: #353b48;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }

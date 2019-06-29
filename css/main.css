@@ -1,13 +1,54 @@
-body {
-    background-color: #4D2118; 
+*{
+    padding: 0;
+    margin: 0;
+}
 
+a{
+    color: #FFF;
+}
+
+a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar{
+    background: url(../images/headerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.322);
+}
+
+.navbar .navbar-header a{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #000 2px solid;
+}
+
+html, body {
+    background: url(../images/Untitled-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.content-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 33% 33% auto;
 }
 
 h1 {
-    margin-top: 4%;
+    grid-row: 1;
+    align-self: end;
     text-align: center;
-    font-family: "Helvetica";
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px black;
     font-size: 50px;
+    letter-spacing: 10px;
     color: #fff;
 
 }
@@ -18,20 +59,21 @@ h2 {
 
 }
 
-.tft {
+/*.tft {
+    padding-top: 5%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 16%;
     width: 16%;
-}
+}*/
 
 .bottom {
-    margin-top: 12%;
+    grid-row: 3;
+    align-self: start;
 }
 
 .container {
-    width: 35%;
+    width: 80%;
 }
 
 .copyright {
@@ -52,19 +94,24 @@ h2 {
     height: 50%;
 }
 
+.h-100{
+    grid-row: 2;
+    align-self: center;
+}
+
 .searchbar{
     margin-bottom: auto;
     height: 60px;
-    background-color: #353b48;
+    background-color: rgba(255, 255, 255, 0.616);
     border-radius: 30px;
     padding: 10px;
     }
 
     .search_input{
-    color: white;
+    color: black;
     border: 0;
     outline: 0;
-    background-color: #353b48;
+    background-color: rgba(255, 255, 255, 0);
     width: 300px;
     caret-color:auto;
     line-height: 40px;
@@ -80,9 +127,12 @@ h2 {
     transition: width 0.4s linear;
     }
 
-    .searchbar:hover > .search_icon{
-    background: #353b48;
-    color: #e74c3c;
+    .search_icon:hover{
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .searchbar:hover{
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
     }
 
     .search_icon{
@@ -95,3 +145,7 @@ h2 {
     border-radius: 50%;
     color:white;
     }
+
+.list-inline-item{
+    padding: 1em 0.5em 0 0.5em;
+}

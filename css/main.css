@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/backgroundpengu.jpg");
+    background-image: url("../images/backgroundpengu.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }

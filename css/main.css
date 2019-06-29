@@ -1,3 +1,155 @@
+ rl_test
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: #FFF;
+}
+
+a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar{
+    background: url(../images/headerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.322);
+}
+
+.navbar .navbar-header a{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #000 2px solid;
+}
+
+html, body {
+    background: url(../images/Untitled-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.content-container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 33% 33% auto;
+}
+
+h1 {
+    grid-row: 1;
+    align-self: end;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px black;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #fff;
+
+}
+
+h2 {
+    font-size: 12px;
+    color: #fff;
+
+}
+
+/*.tft {
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+    height: 16%;
+    width: 16%;
+}*/
+
+.bottom {
+    grid-row: 3;
+    align-self: start;
+}
+
+.container {
+    width: 80%;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.main-champions-container {
+   
+}
+
+.urf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.h-100{
+    grid-row: 2;
+    align-self: center;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 300px;
+    caret-color:auto;
+    line-height: 40px;
+    transition: none;
+    padding-left:10px;
+    }
+
+    .searchbar{
+    color:#353b48;
+    padding: 8px;
+    width: 450px;
+    caret-color:auto;
+    transition: width 0.4s linear;
+    }
+
+    .search_icon:hover{
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .searchbar:hover{
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+
+.list-inline-item{
+    padding: 1em 0.5em 0 0.5em;
+}
 body {
     background-image: url("../images/backgroundpengu.jpg");
     background-repeat: no-repeat;

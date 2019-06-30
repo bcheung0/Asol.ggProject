@@ -28,11 +28,14 @@ a:hover{
 }
 
 html, body {
+    height: 100%;
+}
+
+body{
     background: url(../images/Untitled-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
 }
 
 .content-container{
@@ -109,12 +112,13 @@ h2 {
 
     .search_input{
     color: black;
+    font-family: 'Montserrat', sans-serif;
     border: 0;
     outline: 0;
     background-color: rgba(255, 255, 255, 0);
     width: 300px;
     caret-color:auto;
-    line-height: 40px;
+    line-height: 45px;
     transition: none;
     padding-left:10px;
     }
@@ -147,5 +151,7 @@ h2 {
     }
 
 .list-inline-item{
-    padding: 1em 0.5em 0 0.5em;
+    padding: 1em 2em 0 2em;
 }
+
+

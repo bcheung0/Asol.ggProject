@@ -106,7 +106,7 @@ h2 {
     margin: 1% auto 0 auto;
     width: 90%;
     height: 30%;
-    border-style: solid;
+    border-style: dotted;
     border-color: #000;
     display: block;
 }
@@ -115,7 +115,7 @@ h2 {
     margin: 1% auto 0 auto;
     width: 90%;
     height: 30%;
-    border-style: solid;
+    border-style: dotted;
     border-color: #000;
     display: block;
 }
@@ -124,9 +124,32 @@ h2 {
     margin: 1% auto 0 auto;
     width: 90%;
     height: 30%;
-    border-style: solid;
+    border-style: dotted;
     border-color: #000;
     display: block;
+}
+
+.aboutUs-descriptions {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+}
+
+.aboutUs_pic {
+    height: 70%;
+    width: 20%;
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+
+.aboutUs-name {
+    margin-bottom: 0%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Helvetica";
 }
 
 .urf {

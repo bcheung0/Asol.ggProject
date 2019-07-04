@@ -1,0 +1,9 @@
+1. Grid the champions into seperate pages
+
+2. Get item pictures and then grid them 
+
+3. Get search bar to work - can search up current league profile 
+
+4. Create pages for About Us, Help, and Contact
+
+5. Facebook, twitter, and instagram? 

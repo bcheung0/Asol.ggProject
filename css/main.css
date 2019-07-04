@@ -27,6 +27,14 @@ a:hover{
     border: #000 2px solid;
 }
 
+.navbar .nav-item a{
+    border-bottom: transparent solid 2px;
+}
+
+.navbar .nav-item a:hover{
+    border-bottom: #9e6c36 solid 2px;
+}
+
 html, body {
     height: 100%;
 }
@@ -62,8 +70,8 @@ h2 {
 
 }
 
-/*.tft {
-    padding-top: 5%;
+/*.tft 
+{    padding-top: 5%;
     display: block;
     margin: auto;
     height: 16%;
@@ -151,7 +159,5 @@ h2 {
     }
 
 .list-inline-item{
-    padding: 1em 2em 0 2em;
+    padding: 1em 0.5em 0 0.5em;
 }
-
-

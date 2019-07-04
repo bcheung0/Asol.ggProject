@@ -94,6 +94,41 @@ h2 {
    
 }
 
+.aboutUs-container {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-style: solid;
+    border-color: #000;
+}
+
+.brian-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: solid;
+    border-color: #000;
+    display: block;
+}
+
+.john-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: solid;
+    border-color: #000;
+    display: block;
+}
+
+.raymond-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: solid;
+    border-color: #000;
+    display: block;
+}
+
 .urf {
     display: block;
     margin-left: auto;

@@ -27,6 +27,25 @@
 	opacity: 0.7;
 }
 
+.champ:before, .champ:after{
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+}
+
+.champ:before{
+	bottom: 100%;;
+	border-bottom: 80px solid blue;
+}
+
+.champ:after{
+	top:100%;
+	width: 0;
+	border-top: 80px solid blue;
+}
+
 .champ:hover{
 	opacity: 1;
 }

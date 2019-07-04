@@ -27,6 +27,14 @@ a:hover{
     border: #000 2px solid;
 }
 
+.navbar .nav-item a{
+    border-bottom: transparent solid 2px;
+}
+
+.navbar .nav-item a:hover{
+    border-bottom: #9e6c36 solid 2px;
+}
+
 html, body {
     background: url(../images/Untitled-1.jpg);
     background-size: cover;

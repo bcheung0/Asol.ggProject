@@ -1,22 +1,32 @@
-.body{
-	padding-left:20px;
-
+*{
+	padding: 0;
+	margin: 0;
 }
 
-
+.navbar .nav-item .current{
+	border-bottom: #9e6c36 solid 2px;
+}
 
 .main-champions-container{
 	padding-top: 50px;
-	padding-left: 100px;
 	margin-bottom: 50px;
 	display:grid;
 
-	grid-template-columns: repeat(8,1fr);
-	grid-template-rows: repeat(8,5vw);
+	grid-template-columns: repeat(auto-fit , minmax(170px, 1fr));
 	grid-gap:15px;
 	grid-row-gap: 50px;
-	 
-)
+
+	justify-items: center;
+}
+
+.champ{
+	opacity: 0.7;
+}
+
+.champ:hover{
+	opacity: 1;
+}
+
 
 
 
@@ -25,4 +35,3 @@
 
 
 
-}

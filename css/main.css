@@ -94,6 +94,66 @@ h2 {
    
 }
 
+.aboutUs-container {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-style: solid;
+    border-color: #000;
+    background-color: rgba(174, 110, 98, 0.2);
+
+}
+
+.brian-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: dotted;
+    border-color: #000;
+    display: block;
+}
+
+.john-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: dotted;
+    border-color: #000;
+    display: block;
+}
+
+.raymond-aboutUs {
+    margin: 1% auto 0 auto;
+    width: 90%;
+    height: 30%;
+    border-style: dotted;
+    border-color: #000;
+    display: block;
+}
+
+.aboutUs-descriptions {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+    color: #fff;
+}
+
+.aboutUs_pic {
+    height: 70%;
+    width: 20%;
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+
+.aboutUs-name {
+    margin-bottom: 0%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Helvetica";
+}
+
 .urf {
     display: block;
     margin-left: auto;

@@ -154,6 +154,11 @@ h2 {
     font-family: "Helvetica";
 }
 
+.patch {
+    display: inline;
+    color: red;
+}
+
 .urf {
     display: block;
     margin-left: auto;

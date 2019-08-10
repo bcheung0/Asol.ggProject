@@ -89,23 +89,14 @@ h2 {
     width: 80%;
 }
 
-.info-links{
-    border: red 2px solid;
+.footer-links{
+    display: flex;
 }
 
-.aboutUs{
-    border: red 2px solid;
-    width: 100px;
-}
-
-.contact{
-    border: red 2px solid;
-    width: 100px;
-}
-
-.help{
-    border: red 2px solid;
-    width: 100px;
+.footer-links a{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 20px;
 }
 
 .copyright {
@@ -188,7 +179,7 @@ h2 {
 }
 
 .honorable-mentions{
-    margin-top: 20px;
+    margin-top: 7px;
     color: #FFF;
     text-align: center;
 }

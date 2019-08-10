@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 a{
@@ -112,125 +114,85 @@ h2 {
     color: #fff;
 }
 
-.aboutUs-container {
-    margin: auto;
-    width: 90%;
-    height: 50%;
-    border-style: solid;
-    border-color: #000;
-    background-color: rgba(174, 110, 98, 0.2);
-
-}
-
-.brian-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
-}
-
-.john-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
-}
-
-.raymond-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
-}
-
-.aboutUs-descriptions {
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Helvetica', sans-serif;
-    color: #fff;
-}
-
-.aboutUs_pic {
-    height: 70%;
-    width: 20%;
-    display: block;
-    margin: 0 auto 0 auto;
-
-}
-
-.aboutUs-name {
-    margin-bottom: 0%;
-    text-align: center;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Helvetica";
-}
+/*BEGIN ABOUT*/
 
 .aboutUs-container {
     margin: auto;
-    width: 90%;
-    height: 90%;
-    border-style: solid;
-    border-color: #000;
-    background-color: rgba(174, 110, 98, 0.2);
-
+    width: 80%;
+    height: auto;
+    max-height: 250px;
 }
 
-.brian-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
+.aboutUs-container p{
+    padding: 0;
+    margin: 0;
 }
 
-.john-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
+.card-container{
+    margin: auto;
+    margin-top: 30px;
+    max-width:500px;
+    max-height: 250px;
+    display: flex;
+    border-right: solid 5px #6EB5FF;
+    box-shadow: 5px 7px 10px;
 }
 
-.raymond-aboutUs {
-    margin: 1% auto 0 auto;
-    width: 90%;
-    height: 30%;
-    border-style: dotted;
-    border-color: #000;
-    display: block;
+.aboutUs-pic{
+    height: 250px;
+    width: auto;
+    max-width: 200px;
 }
 
-.aboutUs-descriptions {
+.aboutUs-content{
+    background-color: #FBFBF8;
+    max-width: 300px;
     text-align: center;
-    font-size: 12px;
-    font-family: 'Helvetica', sans-serif;
-    color: #fff;
+    position: relative;
 }
 
-.aboutUs_pic {
-    height: 70%;
-    width: 20%;
-    display: block;
-    margin: 0 auto 0 auto;
-
+.aboutUs-content .aboutUs-name{
+    padding-top: 10%;
+    width: 60%;
+    margin: auto;
+    border-bottom: solid 2px #9e6c3654;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
 }
 
-.aboutUs-name {
-    margin-bottom: 0%;
+.aboutUs-content .position{
+    color: rgb(92, 92, 92);
+}
+
+.aboutUs-content .aboutUs-descriptions{
+    padding-top: 10%;
+    margin: auto;
+    width: 80%;
+    color: rgb(92, 92, 92);
+}
+
+.aboutUs-content .link-list{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 50%;
+    margin-left: -31px;
+}
+
+.aboutUs-content .github{
+    padding-left: 2em;
+}
+
+.aboutUs-content i{
+    color: black;
+}
+
+.honorable-mentions{
+    color: #FFF;
     text-align: center;
-    color: #fff;
-    font-size: 25px;
-    font-family: "Helvetica";
 }
+/*END ABOUT*/
 
 .urf {
     display: block;

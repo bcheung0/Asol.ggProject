@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    box-sizing: border-box;
+    box-sizing:
 }
 
 a{
@@ -117,10 +117,9 @@ h2 {
 /*BEGIN ABOUT*/
 
 .aboutUs-container {
-    margin: auto;
     width: 80%;
+    margin: auto;
     height: auto;
-    max-height: 250px;
 }
 
 .aboutUs-container p{
@@ -189,6 +188,7 @@ h2 {
 }
 
 .honorable-mentions{
+    margin-top: 20px;
     color: #FFF;
     text-align: center;
 }
